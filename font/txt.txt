@@ -1,0 +1,3 @@
+#171F3B - dark blue
+#2C5F88 - fant blue
+#FFF- white
