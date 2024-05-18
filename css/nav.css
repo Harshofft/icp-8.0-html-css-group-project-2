@@ -1,0 +1,195 @@
+@font-face {
+    font-family: logo-font;
+    src: url(../font/DIMITRI_.TTF);
+}
+
+@font-face {
+    font-family: gily-roy;
+    src: url(../font/Gilroy-Medium.ttf);
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+nav {
+    height: 10vh;
+    width: 100%;
+    font-family: logo-font;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(10px);
+    border-bottom: 0.1px solid white;
+    position: sticky;
+    top: 0;
+    z-index: 11;
+}
+
+nav #nav-right {
+    height: 100%;
+    width: 20vw;
+    font-size: 4vw;
+    color: white;
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+}
+
+#nav-right span {
+    color: rgb(206, 203, 203);
+}
+
+nav #nav-left {
+    margin-right: 5vw;
+    width: 40vw;
+}
+
+nav #nav-left ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+#nav-left ul li {
+    list-style: none;
+}
+
+#nav-left ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: gily-roy;
+    font-weight: 900;
+    font-size: 1.2vw;
+}
+
+#nav-left ul li:nth-child(5) {
+    padding: 0.5vh 1.5vw;
+    background-color: #45a2ef;
+    border-radius: 17px;
+}
+
+
+#hamb-menu-logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 10vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#hamb-menu-logo img {
+    height: 50%;
+    width: 100%;
+    transform: rotate(-90deg);
+    display: none;
+}
+
+#hamb-menu-page {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+#hamb-menu-page ul {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+#hamb-menu-page ul li {
+    list-style: none;
+}
+
+#hamb-menu-page ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 7vw;
+    font-family: gily-roy;
+    font-weight: 900;
+}
+
+#hamb-menu-page #hamb-close-logo {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 30px;
+    width: 40px;
+}
+
+#hamb-close-logo img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:480px) {
+
+    nav {
+        height: 8vh;
+        z-index: 11;
+    }
+
+    nav #nav-right {
+        font-size: 8vw;
+        margin-left: 2vw;
+    }
+
+    #nav-left ul li {
+        display: none;
+    }
+
+    #hamb-menu-logo img {
+        display: flex;
+    }
+
+
+}
+
+@media screen and (min-width:480px) and (max-width:991px) {
+    nav #nav-left {
+        margin-right: 2vw;
+        width: 55vw;
+    }
+
+    nav #nav-left ul {
+        gap: 2vw;
+    }
+
+    #nav-left ul li {
+        list-style: none;
+    }
+
+    #nav-left ul li a {
+        font-size: 1.9vw;
+    }
+
+    #hamb-menu-logo {
+        display: none;
+    }
+
+    #hamb-menu-page {
+        display: none;
+    }
+
+}
