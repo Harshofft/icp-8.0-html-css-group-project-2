@@ -31,7 +31,7 @@ body{
     height: 50vh;
     width: 80vh;
     margin:130px 80px ;
-    background-color: red;
+   
     
 }
 .h1{
@@ -41,6 +41,24 @@ body{
 }
 .p{
     padding: 10px;
-    color: rgb(46, 46, 58);
+    color: rgb(187, 187, 207);
 }
-.
+.btn{
+    height: 5vh;
+    width: 19vh;
+    background-color: transparent;
+    color: #d5dae7;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 120px;
+    border: 2px solid brown;
+}
+.card-back{
+    display: flex;
+}
+.card{
+    height: 40vh;
+    width: 40vh;
+    margin: 20px;
+    background-color: red;
+}
