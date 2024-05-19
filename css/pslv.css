@@ -5,6 +5,7 @@ body{
 .pslv{
     height: 100vh;
     width: 100%;
+    
    
    
 
@@ -17,9 +18,8 @@ body{
     
 }
 .img-card{
-    height: 40vh;
-    width: 40vh;
-   
+    height: 70vh;
+    width: 70vh;
     margin:10vh;
     margin-right: 30vh;
     margin-left: 15vh;
@@ -44,29 +44,124 @@ body{
     color: rgb(187, 187, 207);
 }
 .btn{
-    height: 5vh;
-    width: 19vh;
-    background-color: transparent;
+    height: 8vh;
+    width: 26vh;
+    font-size: 20px;
+    font-weight: 500;
+    background-color:#45a2ef;
     color: #d5dae7;
     border-radius: 10px;
+    padding: 10px;
     margin-top: 20px;
     margin-left: 120px;
-    border: 2px solid brown;
+   
 }
 .card-back{
     display: flex;
     justify-content: center;
 }
 .card{
-    height: 30vh;
-    width: 40vh;
+    height: 25vh;
+    width: 50vh;
     margin: 20px;
     border-radius: 20px;
-    background-color: #d5dae7;
+    
+    overflow: hidden;
 }
 .card-img{
+    height: 100%;
+    width:100%;
+    object-fit: fill;
+   
+}
+@media screen and (max-width:480px) {
+body{
+    height: 200%;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+    .fist{
+  height: 450px;
+    margin: 0px;
+    padding: 10px;
+    flex-direction: column;
+   
+}
+.text{
     height: 30vh;
-    width: 40vh;
-    overflow: hidden;
+    width: 30vh;
+    padding: 0%;
+    margin:0%;
+    margin-left: 13vh;
+}
+.p{
+    font-size: 10px;
+}
+.img-card{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 30vh;
+    width: 50vh;
+}
+.btn{
+    margin: 0%;
+    padding: 8px;
+    font-size: 10px;
+    height: 30px;
+    width: 100px;
+}
+.card-back{
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #303f72, black);
     
 }
+.card{
+    overflow: hidden;
+    height: 25vh;
+    width: 40vh;
+    border-radius: 10px;
+}
+
+}
+@media screen and (min-width:480px) and (max-width:991px){
+
+.text{
+    margin: 0;
+    margin-top: 10vh;
+  
+}
+.img-card{
+    height: 60vh;
+    width: 40vh;
+    margin: 0;
+    padding: 0;
+    margin: 20px;
+    margin-right: 20px;
+    
+}
+
+
+}
+@media screen and (min-width:480px)and (max-width:660px){
+    .img-card{
+        height: 40vh;
+        width: 30vh;
+    }
+    .text{
+        margin: 0;
+        padding: 0;
+        
+        height: 40vh;
+        width: 40vh;
+    }
+    .btn{
+        height: 7vh;
+        width:30vh ;
+    }
+}
+ 
+
