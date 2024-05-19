@@ -95,6 +95,7 @@ nav #nav-left ul {
     background-image: url(../img/hamb-logo.svg);
     background-repeat: no-repeat;
     background-position: center;
+    display: none;
 }
 
 
@@ -130,6 +131,9 @@ nav #nav-left ul {
         display: none;
     }
 
+    #open-page{
+        display: flex;
+    }
     #open-page:hover #resp-nav{
         display: flex;
         color: white;
@@ -178,5 +182,6 @@ nav #nav-left ul {
 
     #open-page{
         display: none;
+        background-image:none ;
     }
 }
