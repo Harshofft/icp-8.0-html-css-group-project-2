@@ -124,8 +124,9 @@
 #misson-div h1{
     display: flex;
     align-items: center;
-    font-size: 4vw;
+    font-size: 4.5vw;
     gap: 2vw;
+    font-weight: bolder;
 }
 
 #misson-div h1 img{
@@ -135,5 +136,22 @@
 #mission-container{
     height: 40vh;
     width: 70vw;
+    
+}
+
+.mission{
+    height: 40vh;
+    width: 15vw;
+    border-radius: 12px;
+     background: #2f7ab7;
+     overflow: hidden;
+     box-shadow:  10px 10px 20px #5288c66e,
+             -10px -10px 20px #171c757a;
+}
+
+.mission-img{
+    height:25vh;
+    width: 100%;
     background-color: red;
 }
+
