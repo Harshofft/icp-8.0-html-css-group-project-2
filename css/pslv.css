@@ -55,10 +55,18 @@ body{
 }
 .card-back{
     display: flex;
+    justify-content: center;
 }
 .card{
-    height: 40vh;
+    height: 30vh;
     width: 40vh;
     margin: 20px;
-    background-color: red;
+    border-radius: 20px;
+    background-color: #d5dae7;
+}
+.card-img{
+    height: 30vh;
+    width: 40vh;
+    overflow: hidden;
+    
 }
