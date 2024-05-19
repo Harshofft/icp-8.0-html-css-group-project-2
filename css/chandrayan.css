@@ -8,7 +8,6 @@ body {
     font-family:Gilroy-Semi;
     color: white;
     background-color: #171F3B;
-    min-height: 100vh; /* Ensure body height is at least the viewport height */
     overflow-x: hidden; 
 }
 
@@ -21,6 +20,7 @@ main {
     text-align: center;
     background: url('../img/moon.jpg') no-repeat center center/cover;
     padding: 100px 20px;
+
 }
 
 .moon h1 {
@@ -47,6 +47,8 @@ main {
     justify-content: space-around;
     padding: 50px 20px;
     background-image:linear-gradient(#171f3b,#2C5F88);
+    position: sticky;
+    top: 50px;
 }
 
 .items {
@@ -83,6 +85,7 @@ main {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 
 .gallery-item {
