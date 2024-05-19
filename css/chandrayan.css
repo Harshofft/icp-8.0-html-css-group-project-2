@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #000;
+    min-height: 100vh; /* Ensure body height is at least the viewport height */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+main {
+    padding-bottom: 50px; /* Ensure there's enough space at the bottom */
+}
+
+.hero {
+    text-align: center;
+    background: url('earth.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.btn-get-started {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #222;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+.feature h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.mission, .payloads, .gallery, .future {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #111;
+}
+
+.mission h2, .payloads h2, .gallery h2, .future h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.mission h3, .payloads h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.payload {
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    margin: 10px;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: 400px;
+    display: block;
+}
+
+.gallery-item p {
+    margin-top: 10px;
+}
+
+.future p {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.btn-view-all, .btn-submit {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    font-size: 0.9em;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.5em;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-item {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 30px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .feature {
+        width: 100%;
+    }
+
+    .gallery-item img {
+        width: 100%;
+    }
+}
+       
