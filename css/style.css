@@ -1,0 +1,60 @@
+@font-face {
+    font-family: gily-roy;
+    src: url(../font/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: logo-bold;
+    src: url(../font/DIMITRI_.TTF);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: gily-roy;
+    background:linear-gradient(to right,#303f72,black) ;   
+}
+
+#page1 #slogan-div{
+    height: 100%;
+    text-align: justify;
+    width: 40vw;
+    
+}
+
+#slogan-div h1{
+    padding:7vh 4vw;
+    font-size: 4vw;
+    font-weight: bolder;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+
+
+#page1 #img-div{
+    height: 100%;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-div img{
+    height: 100%;
+    object-fit: fill;
+    position: sticky;
+    top: 0;
+    filter: drop-shadow(10px 20px 100px white);
+}
