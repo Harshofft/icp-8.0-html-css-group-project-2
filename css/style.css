@@ -270,6 +270,113 @@
         width: 100vw;
     }
     
+  
+
+#page2{
+    height: 80vh;
+}
+
+
+#page2 #page2-side-img{
+    height: 100%;
+    width: 20vw; 
+    position: absolute;
+    left: 0;
+    top: 0;
+     
+}
+
+#page2-side-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    filter: drop-shadow(10px 10px 100px black);
+}
+
+#page2 #misson-div{
+    height: 100%;
+    width: 100vw;
+    margin-left: 0vw;
+    position: relative;
+    z-index: 10;
+    display: flex;
+}
+
+#misson-div h1{
+    display: flex;
+    align-items: center;
+    font-size: 9vw;
+    margin-bottom: 4vh;
+}
+
+
+
+#mission-box{
+    height: 70vh;
+    width: 90vw;
+
+}
+
+#side1{
+    height: 70%;
+    width: 55%;
+    padding: 0 2vw;
+}
+
+#mangal{
+    height: 50%;
+    width: 100%;
+}
+
+#mangal img{
+   height:10vw;
+}
+
+#moon{
+    height: 50%;
+    width: 100%;
+}
+
+#moon img{
+    height: 10vw;
+ }
+
+.mis-btn{
+    height: 3.5vh;
+    width: 19vw;
+    font-size: 3.5vw;
+}
+
+.mis-btn img{
+    width: 5vw;
+}
+
+.mis-txt{
+    font-size: 4vw;
+}
+
+
+#side2{
+    height: 70%;
+    width: 45%;
+    padding: 0 2vw;
+}
+
+
+#upcoming img{
+    height: 10vw;
+ }
+
+ #upcoming a{
+    margin-top: 10vh;
+ }
+
+ #last a{
+    margin-top:7vh;
+    width: 20vw;
+ }
+
+
 }
 
 @media  screen and (min-width:481px) and (max-width:991px){
@@ -343,63 +450,72 @@
 
 @media  screen and (min-width:992px) and (max-width:1199px) {
     
-    #page1{
-        height: 90vh;
-    }
-    #page2{
-        height: 90vh;
-        background-color: #3a9ff1;
-        width: 100vw;
-        font-family: gily-roy;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        background: linear-gradient(to left, #303f72, black);
-    }
     
-    
-    #page2-side-img img{
-        height: 100%;
-        width: 100%;
-        object-fit: fill;
-        filter: drop-shadow(10px 10px 100px black);
-    }
-    
-    #page2 #misson-div{
-        height: 100%;
-        width: 85vw;
-        margin-left: 5vw;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    
-    #misson-div h1{
-        display: flex;
-        align-items: center;
-        font-size: 4.5vw;
-        gap: 2vw;
-        font-weight: bolder;
-    }
-    
-    #misson-div h1 img{
-        height: 10vh;
-    }
-    
-    #mission-box{
-        height: 70vh;
-    
-    }
-    
-    #side1{
-        height: 100%;
-        width: 55%;
-        border-right: 2px solid white;
-        padding: 0 2vw;
-    }
-    
+#page1 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: gily-roy;
+    background: linear-gradient(to right, #303f72, black);
+}
+
+#page1 #slogan-div {
+    height: 100%;
+    text-align: justify;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+#slogan-div h1 {
+    padding: 7vh 4vw;
+    font-size: 4vw;
+    font-weight: bolder;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+#slogan-div button {
+    height: 7vh;
+    width: 15vw;
+    display: flex;
+    margin-left: 4vw;
+    align-items: center;
+    gap: 1vw;
+    justify-content: center;
+    border: 0.1px solid black;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    color: black;
+    background-color: #3a9ff1;
+    text-transform: uppercase;
+}
+
+#slogan-div button img {
+    height: 10vh;
+    width: 25%;
+}
+
+#page1 #img-div {
+    height: 100%;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-div img {
+    height: 100%;
+    object-fit:fill;
+    position: sticky;
+    top: 0;
+    filter: drop-shadow(10px 20px 100px white);
+}
     
 }
 

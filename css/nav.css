@@ -133,6 +133,7 @@ nav #nav-left ul {
 
     #open-page{
         display: flex;
+        z-index: 1000;
     }
     #open-page:hover #resp-nav{
         display: flex;
