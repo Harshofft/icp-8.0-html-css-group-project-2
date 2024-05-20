@@ -27,7 +27,7 @@ body{
 }
 
 #page1,#page2,#page3{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 
