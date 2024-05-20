@@ -76,10 +76,20 @@ body{
 }
 @media screen and (max-width:480px) {
 body{
-    height: 200%;
+    height: 100%;
     width: 100%;
-    background-repeat: no-repeat;
+   
 
+    background-repeat: no-repeat;
+    
+
+}
+.pslv{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
     .fist{
   height: 450px;
@@ -89,25 +99,28 @@ body{
    
 }
 .text{
-    height: 30vh;
+    height: 20vh;
     width: 30vh;
     padding: 0%;
     margin:0%;
-    margin-left: 13vh;
+  
+   
 }
 .p{
+    padding: 0;
     font-size: 10px;
 }
 .img-card{
     margin: 0%;
     padding: 0%;
-    margin-top: 20px;
+    
     margin-left: 20px;
-    height: 30vh;
-    width: 50vh;
+    height: 20vh;
+    width: 30vh;
 }
 .btn{
     margin: 0%;
+    margin-top: 8px;
     padding: 8px;
     font-size: 10px;
     height: 30px;
@@ -127,12 +140,30 @@ body{
 }
 
 }
-@media screen and (min-width:480px) and (max-width:991px){
+@media screen and (min-width:480px) and (max-width:991px)
+{
+    .pslv{
+        overflow: hidden;
+    }
+    .fist{
+        display: flex;
+        flex-direction: column;
+    }
 
 .text{
+    height: 40vh;
+    width: 100%;
     margin: 0;
-    margin-top: 10vh;
+    padding: 10px;
+   
+   
+   
   
+}
+body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 .img-card{
     height: 60vh;
@@ -143,10 +174,21 @@ body{
     margin-right: 20px;
     
 }
+.btn{
+    height: 5vh;
+    width: 15vh;
+}
 
 
 }
 @media screen and (min-width:480px)and (max-width:660px){
+    body{
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        
+    }
+   
     .img-card{
         height: 40vh;
         width: 30vh;
@@ -160,7 +202,7 @@ body{
     }
     .btn{
         height: 7vh;
-        width:30vh ;
+        width:30v;
     }
 }
  
