@@ -228,6 +228,9 @@ nav #nav-left ul {
     font-size: 15px;
     color: #fff;
 }
+.btn:hover{
+    background-color:#0a4575 ;
+}
 
 @media screen and (max-width:480px) {
 
