@@ -241,6 +241,76 @@ body{
 
 
 
+ #page3{
+    height:100vh;
+    width: 100%;
+    font-family: gily-roy;
+    position: relative;
+    background: linear-gradient(to right, #303f72, black); 
+ }
+
+ #page3 video{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+ }
+  #cover{
+    background: linear-gradient(to left,#19213b,rgba(0, 0, 0, 0.71),transparent,rgba(0, 0, 0, 0.71),#19213b);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #cover h1{
+    font-size: 6vw;
+     display: flex;
+     align-items: center;
+  }
+  #cover h1 span {
+    display: flex;
+    align-items: center;
+    border: 10px solid white;
+    border-radius: 50%;
+  }
+
+
+  #cover h1 span img{
+    height: 3vw;
+  }
+
+  #cover a{
+    padding: 0.2vh 5vw;
+    border: 1px solid whitesmoke;
+    border-radius: 19px;
+    font-size: 2vw;
+    text-decoration: none;
+    margin-top: 3vh;
+  }
+  #cover a:hover{
+    background-color: white;
+    color: black;
+  }
+
+  #cover h2{
+  margin-top: 8vh;
+  font-size: 3vw;
+  }
+ #btn-div{
+    margin-top: 4vh;
+ }
+  #btn-div a{
+    padding: 0.5vh 4vw;
+    font-size: 1.5vw;
+  }
+  
+
 
 @media screen and (max-width:480px){
     #page1 {
@@ -391,6 +461,38 @@ body{
  }
 
 
+
+ #cover h1 span {
+    border: 4.5px solid white;
+    
+  }
+
+
+  #cover h1 span img{
+    height: 4vw;
+  }
+
+#cover h1{
+    font-size: 7vw;
+}
+ #cover a{
+    font-size: 4vw;
+  }
+
+  #cover h2{
+  margin-top: 8vh;
+  font-size: 6vw;
+  }
+ #btn-div{
+    margin-top: 3vh;
+ }
+  #btn-div a{
+    padding: 0.5vh 4vw;
+    font-size: 3vw;
+  }
+
+
+
 }
 
 
@@ -525,6 +627,32 @@ body{
 
 
 
+ #cover h1 span {
+    border: 8px solid white;
+    
+  }
+
+
+  #cover h1 span img{
+    height: 4vw;
+  }
+
+#cover h1{
+    font-size: 7vw;
+}
+ #cover a{
+    font-size: 3vw;
+  }
+
+  #cover h2{
+  font-size: 6vw;
+  }
+ 
+  #btn-div a{
+    font-size: 2.4vw;
+  }
+
+
 
 }
 
@@ -565,6 +693,30 @@ body{
  }
 
 
+ #cover h1 span {
+    border: 8px solid white;
+    
+  }
+
+
+  #cover h1 span img{
+    height: 4vw;
+  }
+
+#cover h1{
+    font-size: 6vw;
+}
+ #cover a{
+    font-size: 2.3vw;
+  }
+
+  #cover h2{
+  font-size: 4vw;
+  }
+ 
+  #btn-div a{
+    font-size: 1.9vw;
+  }
 
 }
 
