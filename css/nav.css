@@ -77,6 +77,11 @@ nav #nav-left ul {
     font-size: 1.2vw;
 }
 
+
+#nav-left ul li a:hover{
+    text-decoration: underline;
+}
+
 #nav-left ul li:nth-child(5) {
     padding: 0.5vh 1.5vw;
     background-color: #45a2ef;
@@ -130,6 +135,9 @@ nav #nav-left ul {
     #nav-left ul li {
         display: none;
     }
+
+     
+
 
     #open-page{
         display: flex;

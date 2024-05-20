@@ -23,13 +23,12 @@
 }
 
 body{
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 
 
 #page1 {
     height: 100vh;
-    overflow:hidden;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -44,16 +43,18 @@ body{
     width: 40vw;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
+    justify-content: center;
 
 }
 
 #slogan-div h1 {
     padding: 7vh 4vw;
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight: bolder;
     line-height: 1.1;
     text-transform: uppercase;
+    text-align: center;
 }
 
 #slogan-div button {
@@ -89,8 +90,6 @@ body{
 #img-div img {
     height: 100%;
     object-fit: fill;
-    position: sticky;
-    top: 0;
     filter: drop-shadow(10px 20px 100px white);
 }
 
@@ -194,9 +193,18 @@ body{
     font-weight: 200;
 }
 
+
+.mis-btn:hover{
+    background-color:white;
+    color: black;
+}
+
 .mis-btn img{
     width: 2vw;
 }
+
+
+
 
 .mis-txt{
     font-size: 2vw;
@@ -385,6 +393,9 @@ body{
 
 }
 
+
+
+
 @media  screen and (min-width:481px) and (max-width:991px){
 
     #page1 {
@@ -394,134 +405,166 @@ body{
     
     #page1 #slogan-div {
         height: 100%;
-        text-align: justify;
         width: 50vw;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-    
+        align-items: center;
+        justify-content: center;
     }
     
     #slogan-div h1 {
-        position: relative;
-        z-index: 11;
         padding: 7vh 0vw;
-        font-size:6vw;
-        font-weight: bolder;
-        line-height:1;
-        text-transform: uppercase;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+        font-size:7vw;
     }
     
     #slogan-div button {
-        height: 7vh;
-        width: 15vw;
-        display: flex;
-        margin-left: 4vw;
-        align-items: center;
-        gap: 1vw;
-        justify-content: center;
-        border: 0.1px solid black;
-        border-radius: 5px;
-        font-size: 1.5vw;
-        cursor: pointer;
-        color: black;
-        background-color: #3a9ff1;
-        text-transform: uppercase;
-    }
-    
-    #slogan-div button img {
-        height: 10vh;
-        width: 25%;
+        width: 25vw;
+        height: 6vh;
+        font-size: 2vw;
+        margin: 0px;
     }
     
     #page1 #img-div {
-        height: 100%;
-        width: 60vw;
+        width: 100vw;
+        justify-content:center ;
+    }
+    
+
+    #page2{
+        align-items: start;
+    }
+    
+    #page2 #page2-side-img{
+        width: 25vw;    
+    }
+    
+    #page2 #misson-div{
+        height: 80%;
+        width: 100vw;
+        margin-left: 5vw;
         display: flex;
         align-items: center;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
     }
     
-    #img-div img {
-        height: 100%;
-        object-fit: fill;
-        position: sticky;
-        top: 0;
-        filter: drop-shadow(10px 20px 100px white);
+    #misson-div h1{
+        display: flex;
+        align-items: center;
+        font-size: 6vw;
+        gap: 2vw;
+        font-weight: bolder;
     }
     
+    #misson-div h1 img{
+        height: 10vh;
+    }
+    
+    #mission-box{
+        height: 70vh;
+        width: 60vw;
+        margin-bottom: 5vh;
+    }
+    
+    #side1{
+        width: 55%;
+    }
+    
+  
+#mangal{
+    height: 55%;
+    padding-bottom: 2vh;
 }
+
+#mangal img{
+   height:10vw;
+}
+
+#moon{
+    height: 50%;
+    width: 100%;
+}
+
+#moon img{
+    height: 10vw;
+ }
+
+.mis-btn{
+    height: 4vh;
+    width: 15vw;
+    font-size: 3vw;
+    margin-top: 2vh;
+}
+
+.mis-btn img{
+    width: 4vw;
+}
+
+.mis-txt{
+    font-size: 3vw;
+}
+
+
+#side2{
+    width: 45%;
+}
+#upcoming{
+    height:65%;
+}
+
+#upcoming img{
+    height: 8vw;
+ }
+
+ #upcoming a{
+    margin-top: 10vh;
+ }
+
+ #last a{
+    width: 20vw;
+ }
+
+
+
+
+
+}
+
+
+
 
 @media  screen and (min-width:992px) and (max-width:1199px) {
     
-    
-#page1 {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: gily-roy;
-    background: linear-gradient(to right, #303f72, black);
-}
 
 #page1 #slogan-div {
-    height: 100%;
-    text-align: justify;
-    width: 60vw;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+    width: 100vw;
+    justify-content: center;
 
 }
 
 #slogan-div h1 {
-    padding: 7vh 4vw;
-    font-size: 4vw;
-    font-weight: bolder;
-    line-height: 1.1;
-    text-transform: uppercase;
+    font-size: 7vw;
 }
 
 #slogan-div button {
-    height: 7vh;
+    width: 20vw;
+    margin-left: 0vw;
+}
+   
+
+.mis-btn{
+    height: 4.4vh;
     width: 15vw;
-    display: flex;
-    margin-left: 4vw;
-    align-items: center;
-    gap: 1vw;
-    justify-content: center;
-    border: 0.1px solid black;
-    border-radius: 5px;
-    font-size: 1.5vw;
-    cursor: pointer;
-    color: black;
-    background-color: #3a9ff1;
-    text-transform: uppercase;
+    font-size: 3vw;
+    margin-top: 2vh;
 }
 
-#slogan-div button img {
-    height: 10vh;
-    width: 25%;
+.mis-btn img{
+    width: 4vw;
 }
+#last a{
+    width: 20vw;
+ }
 
-#page1 #img-div {
-    height: 100%;
-    width: 60vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-#img-div img {
-    height: 100%;
-    object-fit:fill;
-    position: sticky;
-    top: 0;
-    filter: drop-shadow(10px 20px 100px white);
-}
-    
+
 }
 
