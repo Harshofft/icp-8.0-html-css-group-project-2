@@ -233,6 +233,13 @@ nav #nav-left ul {
 }
 
 @media screen and (max-width:480px) {
+    .card{
+        margin-top: 20px;
+    }
+    .imgbg img{
+        height: 150px;
+        width: 150px;
+    }
 
     nav {
         height: 8vh;
@@ -294,7 +301,9 @@ nav #nav-left ul {
     .row:hover{
         border: #2C5F88 solid 3px;  
     }
-
+    .btn{
+        width: 100px;
+    }
 }
 
 @media screen and (min-width:480px) and (max-width:991px) {
