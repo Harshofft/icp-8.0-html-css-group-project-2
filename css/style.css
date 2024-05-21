@@ -74,18 +74,19 @@ body{
     font-size: 1.5vw;
     cursor: pointer;
     border-radius: 50px;
-background:linear-gradient(to right,#c832f5,#8cc7f7,rgb(40, 152, 139));
+background:linear-gradient(to right,#85c3f3,#6c90f2,rgb(40, 152, 139));
 box-shadow:  20px 20px 60px #32a39e,
-             -20px -20px 60px #c843d4;
+             -20px -20px 60px #8466f3;
     text-transform: uppercase;
     transition: all 1s linear;
 }
 
 
 #slogan-div button:hover{ 
-background:linear-gradient(to left,#c832f5,#8cc7f7,rgb(40, 152, 139));
+    
+background:linear-gradient(to left,#85c3f3,#6c90f2,rgb(40, 152, 139));
 box-shadow:  -20px -20px 60px #32a39e,
-             20px 20px 60px #c843d4;
+             20px 20px 60px #8466f3;
 }
 
 #slogan-div button img {
@@ -210,9 +211,9 @@ box-shadow:  -20px -20px 60px #32a39e,
 
 .mis-btn:hover{
     
-background:linear-gradient(to left,#c832f5,#8cc7f7,rgb(40, 152, 139));
+background:linear-gradient(to left,#c832f554,#8cc7f7,rgba(40, 152, 139, 0.546));
 box-shadow:  -20px -20px 60px #32a39e,
-             20px 20px 60px #c843d4;
+             20px 20px 60px #c843d490;
 }
 
 .mis-btn img{
