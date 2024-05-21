@@ -1,13 +1,21 @@
+
+@font-face {
+    font-family: gily-roy;
+    src: url(../font/Gilroy-Medium.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
+    color: whitesmoke;
+  
 }
 
 body{
     height: 100%;
     width: 100%;
     background: linear-gradient(to right, #303f72, black);
-
+    font-family: gily-roy;
 }
 
 #main{
@@ -21,13 +29,22 @@ body{
 #left{
     height:100%;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+   
  
     
+}
+#left h1{
+    font-size: 7vw;
+
 }
 #right{
     height:100%;
     width: 50%;
-    
     overflow: hidden;
     
 
@@ -36,10 +53,27 @@ body{
     height: 100%;
     width: 100%;
     object-fit: fill;
+    filter: drop-shadow(10px 10px 60px rgb(11, 91, 138));
 
 }
-
-
+#left p{
+   text-align: center;
+    padding:1vh 4vw;
+    font-size: 1.5vw;
+    color: gray;
+}
+#left button{
+    padding: 1vh 2vw;
+    background:linear-gradient(to right,#c832f5,#8cc7f7,rgb(40, 152, 139));
+box-shadow:  20px 20px 60px #32a39e,
+             -20px -20px 60px #c843d4;
+    text-transform: uppercase;
+    transition: all 1s linear;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.5vw; 
+    margin-top: 4vh;  
+}
 
 
 
