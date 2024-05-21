@@ -1,0 +1,726 @@
+@font-face {
+    font-family: gily-roy;
+    src: url(../font/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: logo-bold;
+    src: url(../font/DIMITRI_.TTF);
+}
+
+
+@font-face {
+    font-family: gily-reg;
+    src: url(../font/LTSoul-Regular.otf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+
+}
+
+body{
+    overflow-x:hidden;
+}
+
+#page1,#page2,#page3{
+    overflow: hidden;
+}
+
+
+#page1 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: gily-roy;
+    background: linear-gradient(to right, #303f72, black);
+}
+
+#page1 #slogan-div {
+    height: 100%;
+    text-align: justify;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#slogan-div h1 {
+    padding: 7vh 4vw;
+    font-size: 5vw;
+    font-weight: bolder;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#slogan-div button {
+    height: 7vh;
+    width: 15vw;
+    display: flex;
+    margin-left: 4vw;
+    align-items: center;
+    gap: 1vw;
+    justify-content: center;
+    border: 0.1px solid black;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    color: black;
+    background-color: #3a9ff1;
+    text-transform: uppercase;
+}
+
+#slogan-div button img {
+    height: 10vh;
+    width: 25%;
+}
+
+#page1 #img-div {
+    height: 100%;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-div img {
+    height: 100%;
+    object-fit: fill;
+    filter: drop-shadow(10px 20px 100px white);
+}
+
+
+#page2{
+    height: 100vh;
+    background-color: #3a9ff1;
+    width: 100vw;
+    font-family: gily-roy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: linear-gradient(to left, #303f72, black);
+}
+
+#page2 #page2-side-img{
+    height: 100%;
+    width: 15vw; 
+    position: absolute;
+    left: 0;
+    top: 0;
+     
+}
+
+#page2-side-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    filter: drop-shadow(10px 10px 100px black);
+}
+
+#page2 #misson-div{
+    height: 100%;
+    width: 85vw;
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#misson-div h1{
+    display: flex;
+    align-items: center;
+    font-size: 4.5vw;
+    gap: 2vw;
+    font-weight: bolder;
+}
+
+#misson-div h1 img{
+    height: 10vh;
+}
+
+#mission-box{
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    font-family: gily-reg;
+
+}
+
+#side1{
+    height: 100%;
+    width: 55%;
+    border-right: 2px solid white;
+    padding: 0 2vw;
+}
+
+#mangal{
+    height: 50%;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+#mangal img{
+   height:7vw;
+}
+
+#moon{
+    height: 50%;
+    width: 100%;
+}
+
+#moon img{
+    height: 8vw;
+ }
+
+.mis-btn{
+    height: 5vh;
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    border-radius: 17px;
+    justify-content: center;
+    text-decoration: none;
+    border: 1px solid white;
+    font-size: 1.8vw;
+    margin-top: 3vh;
+    font-weight: 200;
+}
+
+
+.mis-btn:hover{
+    background-color:white;
+    color: black;
+}
+
+.mis-btn img{
+    width: 2vw;
+}
+
+
+
+
+.mis-txt{
+    font-size: 2vw;
+    color: gray;
+}
+
+
+#side2{
+    height: 100%;
+    width: 45%;
+    padding: 0 2vw;
+}
+#upcoming{
+    height:70%;
+    width: 100%;
+    border-bottom:2px solid white ;
+}
+
+
+#upcoming img{
+    height: 8vw;
+ }
+
+ #upcoming a{
+    margin-top: 10vh;
+    margin-left: 2vw;
+ }
+
+ #last a{
+    margin-top:10vh;
+    width: 10vw;
+    margin-left: 2vw;
+ }
+
+
+
+ #page3{
+    height:100vh;
+    width: 100%;
+    font-family: gily-roy;
+    position: relative;
+    background: linear-gradient(to right, #303f72, black); 
+ }
+
+ #page3 video{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+ }
+  #cover{
+    background: linear-gradient(to left,#19213b,rgba(0, 0, 0, 0.71),transparent,rgba(0, 0, 0, 0.71),#19213b);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #cover h1{
+    font-size: 6vw;
+     display: flex;
+     align-items: center;
+  }
+  #cover h1 span {
+    display: flex;
+    align-items: center;
+    border: 10px solid white;
+    border-radius: 50%;
+  }
+
+
+  #cover h1 span img{
+    height: 3vw;
+  }
+
+  #cover a{
+    padding: 0.2vh 5vw;
+    border: 1px solid whitesmoke;
+    border-radius: 19px;
+    font-size: 2vw;
+    text-decoration: none;
+    margin-top: 3vh;
+  }
+  #cover a:hover{
+    background-color: white;
+    color: black;
+  }
+
+  #cover h2{
+  margin-top: 8vh;
+  font-size: 3vw;
+  }
+ #btn-div{
+    margin-top: 4vh;
+ }
+  #btn-div a{
+    padding: 0.5vh 4vw;
+    font-size: 1.5vw;
+  }
+  
+
+
+@media screen and (max-width:480px){
+    #page1 {
+        height: 70vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #page1 #slogan-div {
+        height: 50%;
+        text-align:center;
+        width: 100vw;
+        align-items: center;
+    
+    }
+    
+    #slogan-div h1 {
+        z-index: 10;
+        padding: 7vh 0vw;
+        font-size:8vw;
+    }
+    
+    #slogan-div button {
+        height: 6vh;
+        width: 40vw;
+        display: flex;
+        margin-left: 0vw;
+        font-size: 4vw;
+        
+    }
+    
+    #slogan-div button img {
+        height: 10vh;
+        width: 20%;
+    }
+    
+    #page1 #img-div {
+        height: 100%;
+        width: 100vw;
+    }
+    
+  
+
+#page2{
+    height: 80vh;
+}
+
+
+#page2 #page2-side-img{
+    height: 100%;
+    width: 20vw; 
+    position: absolute;
+    left: 0;
+    top: 0;
+     
+}
+
+#page2-side-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    filter: drop-shadow(10px 10px 100px black);
+}
+
+#page2 #misson-div{
+    height: 100%;
+    width: 100vw;
+    margin-left: 0vw;
+    position: relative;
+    z-index: 10;
+    display: flex;
+}
+
+#misson-div h1{
+    display: flex;
+    align-items: center;
+    font-size: 9vw;
+    margin-bottom: 4vh;
+}
+
+
+
+#mission-box{
+    height: 70vh;
+    width: 90vw;
+
+}
+
+#side1{
+    height: 70%;
+    width: 55%;
+    padding: 0 2vw;
+}
+
+#mangal{
+    height: 50%;
+    width: 100%;
+}
+
+#mangal img{
+   height:10vw;
+}
+
+#moon{
+    height: 50%;
+    width: 100%;
+}
+
+#moon img{
+    height: 10vw;
+ }
+
+.mis-btn{
+    height: 3.5vh;
+    width: 19vw;
+    font-size: 3.5vw;
+}
+
+.mis-btn img{
+    width: 5vw;
+}
+
+.mis-txt{
+    font-size: 4vw;
+}
+
+
+#side2{
+    height: 70%;
+    width: 45%;
+    padding: 0 2vw;
+}
+
+
+#upcoming img{
+    height: 10vw;
+ }
+
+ #upcoming a{
+    margin-top: 10vh;
+ }
+
+ #last a{
+    margin-top:7vh;
+    width: 20vw;
+ }
+
+
+
+ #cover h1 span {
+    border: 4.5px solid white;
+    
+  }
+
+
+  #cover h1 span img{
+    height: 4vw;
+  }
+
+#cover h1{
+    font-size: 7vw;
+}
+ #cover a{
+    font-size: 4vw;
+  }
+
+  #cover h2{
+  margin-top: 8vh;
+  font-size: 6vw;
+  }
+ #btn-div{
+    margin-top: 3vh;
+ }
+  #btn-div a{
+    padding: 0.5vh 4vw;
+    font-size: 3vw;
+  }
+
+
+
+}
+
+
+
+
+@media  screen and (min-width:481px) and (max-width:991px){
+
+    #page1 {
+        height: 80vh;
+        width: 100vw;
+    }
+    
+    #page1 #slogan-div {
+        height: 100%;
+        width: 50vw;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #slogan-div h1 {
+        padding: 7vh 0vw;
+        font-size:7vw;
+    }
+    
+    #slogan-div button {
+        width: 25vw;
+        height: 6vh;
+        font-size: 2vw;
+        margin: 0px;
+    }
+    
+    #page1 #img-div {
+        width: 100vw;
+        justify-content:center ;
+    }
+    
+
+    #page2{
+        align-items: start;
+    }
+    
+    #page2 #page2-side-img{
+        width: 25vw;    
+    }
+    
+    #page2 #misson-div{
+        height: 80%;
+        width: 100vw;
+        margin-left: 5vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    #misson-div h1{
+        display: flex;
+        align-items: center;
+        font-size: 6vw;
+        gap: 2vw;
+        font-weight: bolder;
+    }
+    
+    #misson-div h1 img{
+        height: 10vh;
+    }
+    
+    #mission-box{
+        height: 70vh;
+        width: 60vw;
+        margin-bottom: 5vh;
+    }
+    
+    #side1{
+        width: 55%;
+    }
+    
+  
+#mangal{
+    height: 55%;
+    padding-bottom: 2vh;
+}
+
+#mangal img{
+   height:10vw;
+}
+
+#moon{
+    height: 50%;
+    width: 100%;
+}
+
+#moon img{
+    height: 10vw;
+ }
+
+.mis-btn{
+    height: 4vh;
+    width: 15vw;
+    font-size: 3vw;
+    margin-top: 2vh;
+}
+
+.mis-btn img{
+    width: 4vw;
+}
+
+.mis-txt{
+    font-size: 3vw;
+}
+
+
+#side2{
+    width: 45%;
+}
+#upcoming{
+    height:65%;
+}
+
+#upcoming img{
+    height: 8vw;
+ }
+
+ #upcoming a{
+    margin-top: 10vh;
+ }
+
+ #last a{
+    width: 20vw;
+ }
+
+
+
+
+ #cover h1 span {
+    border: 8px solid white;
+    
+  }
+
+
+  #cover h1 span img{
+    height: 4vw;
+  }
+
+#cover h1{
+    font-size: 7vw;
+}
+ #cover a{
+    font-size: 3vw;
+  }
+
+  #cover h2{
+  font-size: 6vw;
+  }
+ 
+  #btn-div a{
+    font-size: 2.4vw;
+  }
+
+
+
+}
+
+
+
+
+@media  screen and (min-width:992px) and (max-width:1199px) {
+    
+
+#page1 #slogan-div {
+    width: 100vw;
+    justify-content: center;
+
+}
+
+#slogan-div h1 {
+    font-size: 7vw;
+}
+
+#slogan-div button {
+    width: 20vw;
+    margin-left: 0vw;
+}
+   
+
+.mis-btn{
+    height: 4.4vh;
+    width: 15vw;
+    font-size: 3vw;
+    margin-top: 2vh;
+}
+
+.mis-btn img{
+    width: 4vw;
+}
+#last a{
+    width: 20vw;
+ }
+
+
+ #cover h1 span {
+    border: 8px solid white;
+    
+  }
+
+
+  #cover h1 span img{
+    height: 4vw;
+  }
+
+#cover h1{
+    font-size: 6vw;
+}
+ #cover a{
+    font-size: 2.3vw;
+  }
+
+  #cover h2{
+  font-size: 4vw;
+  }
+ 
+  #btn-div a{
+    font-size: 1.9vw;
+  }
+
+}
+
