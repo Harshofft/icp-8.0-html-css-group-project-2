@@ -1,3 +1,7 @@
+@font-face {
+    font-family: gily-roy;
+    src: url(../font/Gilroy-SemiBold.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +9,7 @@
 }
 
 body {
-    font-family:Gily roy;
+    font-family:gily-roy;
     color: white;
     background-color: #171F3B;
     overflow-x: hidden; 
@@ -125,6 +129,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+    .items{
+        font-size: 2.5em;
+    }
     .hero {
         padding: 50px 20px;
     }
@@ -150,10 +158,11 @@ footer {
     .gallery-item {
         width: 80%;
         margin-bottom: 20px;
+        align-items: center;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px a) {
     .hero {
         padding: 30px 20px;
     }
