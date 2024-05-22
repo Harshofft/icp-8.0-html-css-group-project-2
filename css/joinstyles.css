@@ -146,6 +146,7 @@ main {
     src: url(../font/DIMITRI_.TTF);
 }
 
+<<<<<<< HEAD
 @font-face {
     font-family: gily-roy;
     src: url(../font/Gilroy-Medium.ttf);
@@ -323,3 +324,6 @@ main {
 body::-webkit-scrollbar {
     display: none;
 }
+=======
+
+>>>>>>> e14d92008afd0edd95b6ac67b1b9e6363d9af110
