@@ -6,31 +6,39 @@
     <title>Join Us - ISRO</title>
     <link rel="stylesheet" href="./../css/joinstyles.css">
     <link rel="stylesheet" href="./../css/nav.css">
+
 </head>
 <body>
+    <video id="bg-video" autoplay muted loop>
+        <source src="space.mp4" type="video/mp4">
+        
+    </video>
+    <nav>
+        <div id="nav-right">IS<span>R</span>O</div>
+        <div id="nav-left">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">missions</a></li>
+                <li><a href="#">Our Weapons</a></li>
+                <li><a href="#">history</a></li>
+                <li><a href="#">join us</a></li>
+            </ul>
+        </div>
+        <div id="open-page"></div>
+    </nav>
     <header>
-        <nav>
-            <div id="nav-right">IS<span>R</span>O</div>
-            <div id="nav-left">
-                <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">missions</a></li>
-                    <li><a href="#">Our Weapons</a></li>
-                    <li><a href="#">history</a></li>
-                    <li><a href="#">join us</a></li>
-                </ul>
-            </div>
-            <div id="open-page"></div>
-        </nav>
         <h1>ISRO Space </h1>
     </header>
+
     <main>
         <section class="intro">
             <h2>Join Us</h2><br>
-            <p>Be a part of an incredible journey to explore the final frontier. At ISRO, we are committed to pioneering space exploration and we are looking for passionate and talented individuals to join our team.</p>
+            <p>Be a part of an incredible journey to explore the final frontier. 
+                At ISRO, we are committed to pioneering space exploration and 
+                we are looking for passionate and talented individuals to join our team.</p>
         </section>
         <section class="positions">
-            <h2>Open Positions</h2>
+            <h2>Open Positions</h2><br>
             <ul>
                 <li>
                     <h3>Spacecraft Engineer</h3><br>
@@ -47,22 +55,22 @@
             </ul>
         </section>
         <section class="application">
-            <h3>Application Form</h3>
+            <h3>Application Form</h3><br>
             <form action="#" method="post">
-                <label for="name">Name:</label>
+               <h4> <label for="name">Name:</label></h4>
                 <input type="text" id="name" name="name" required>
                 
-                <label for="email">Email:</label>
+               <h4> <label for="email">Email:</label></h4>
                 <input type="email" id="email" name="email" required>
                 
-                <label for="position">Position:</label>
+                <h4><label for="position">Position:</label></h4>
                 <select id="position" name="position" required>
                     <option value="spacecraft_engineer">Spacecraft Engineer</option>
                     <option value="mission_control_specialist">Mission Control Specialist</option>
                     <option value="astrobiologist">Astrobiologist</option>
                 </select>
                 
-                <label for="resume">Resume:</label>
+               <h4> <label for="resume">Resume:</label></h4>
                 <div class="file-input-wrapper">
                     <input type="file" id="resume" name="resume" required>
                     <label for="resume" class="file-input-button">Choose File</label>
@@ -70,11 +78,8 @@
                 <center>
                 <input type="submit" value="Apply">
                 </center>
-             </form>
+            </form>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 ISRO. All rights reserved.</p>
-    </footer>
 </body>
 </html>
