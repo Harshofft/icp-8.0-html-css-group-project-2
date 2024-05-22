@@ -30,3 +30,22 @@ body {
     padding: 700px 20px 10px 20px;
 
 }
+
+.info-container{
+    background-image:linear-gradient(#171F3B #2C5F88);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    position: sticky;
+    top: 50px;
+    border:  #2C5F88 solid 3px;
+    box-shadow: #2C5F88 0px 0px 5px;
+
+    }
+    
+
+    .mission-info{
+        text-align: center;
+        width: 30%;
+        
+    }
