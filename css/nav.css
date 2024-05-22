@@ -80,12 +80,18 @@ nav #nav-left ul {
 
 #nav-left ul li a:hover{
     text-decoration: underline;
+    color: #45a2ef;
 }
 
 #nav-left ul li:nth-child(5) {
     padding: 0.5vh 1.5vw;
     background-color: #45a2ef;
     border-radius: 17px;
+}
+
+#nav-left ul li:nth-child(5):hover{
+background:linear-gradient(to left,#badcf6,#a8bcf3,rgb(178, 246, 238));
+color: black;
 }
 
 
