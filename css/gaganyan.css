@@ -23,3 +23,10 @@ body {
     background: linear-gradient(to right, #303f72, black);
     color: white;
     overflow-x: hidden;
+}
+.spaceship{
+    text-align: center;
+    background: url('../img/gaganyan..webp') center center/cover;
+    padding: 700px 20px 10px 20px;
+
+}
