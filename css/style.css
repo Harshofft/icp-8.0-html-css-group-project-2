@@ -69,13 +69,24 @@ body{
     align-items: center;
     gap: 1vw;
     justify-content: center;
-    border: 0.1px solid black;
+    border: 0.1px solid rgb(3, 179, 248);
     border-radius: 5px;
     font-size: 1.5vw;
     cursor: pointer;
-    color: black;
-    background-color: #3a9ff1;
+    border-radius: 50px;
+background:linear-gradient(to right,#85c3f3,#6c90f2,rgb(40, 152, 139));
+box-shadow:  20px 20px 60px #32a39e,
+             -20px -20px 60px #8466f3;
     text-transform: uppercase;
+    transition: all 1s linear;
+}
+
+
+#slogan-div button:hover{ 
+    
+background:linear-gradient(to left,#85c3f3,#6c90f2,rgb(40, 152, 139));
+box-shadow:  -20px -20px 60px #32a39e,
+             20px 20px 60px #8466f3;
 }
 
 #slogan-div button img {
@@ -199,8 +210,10 @@ body{
 
 
 .mis-btn:hover{
-    background-color:white;
-    color: black;
+    
+background:linear-gradient(to left,#c832f554,#8cc7f7,rgba(40, 152, 139, 0.546));
+box-shadow:  -20px -20px 60px #32a39e,
+             20px 20px 60px #c843d490;
 }
 
 .mis-btn img{
@@ -296,6 +309,11 @@ body{
     font-size: 2vw;
     text-decoration: none;
     margin-top: 3vh;
+background:linear-gradient(to right,#dad0dd8c,#8cc7f781,rgba(40, 152, 139, 0.395));
+box-shadow:  20px 20px 60px #32a39d8e,
+             -20px -20px 60px #e7a2eda1;
+    text-transform: uppercase;
+    transition: all 1s linear;
   }
   #cover a:hover{
     background-color: white;
@@ -340,11 +358,12 @@ body{
     }
     
     #slogan-div button {
-        height: 6vh;
+        height: 5vh;
         width: 40vw;
         display: flex;
         margin-left: 0vw;
-        font-size: 4vw;
+        font-size: 5vw;
+        padding: 3vh 0;
         
     }
     
@@ -433,6 +452,7 @@ body{
     height: 3.5vh;
     width: 19vw;
     font-size: 3.5vw;
+    margin-bottom: 15vh;
 }
 
 .mis-btn img{
