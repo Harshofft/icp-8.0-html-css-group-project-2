@@ -1,0 +1,25 @@
+/*-----------font section---------*/
+@font-face {
+    font-family: gilory;
+    src: url(./../font/Gilroy-Medium.ttf);
+}
+@font-face {
+    font-family: logo-font;
+    src: url(../font/DIMITRI_.TTF);
+}
+
+/*-----------body section---------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: rgb(23, 31, 59);
+    background: linear-gradient(to right, #303f72, black);
+    color: white;
+    overflow-x: hidden;
