@@ -132,8 +132,12 @@ box-shadow:  20px 20px 60px #32a39e,
     width: 80vw; 
     
   margin-top: 2vh;
-     border:2px solid #171F3B; 
+     border:2px solid #171F3B;
+     transition: 1s ease-in-out; 
     
+}
+.card:hover{
+    border: #2C5F88 solid 3px;
 }
 .img{
     display: flex;
