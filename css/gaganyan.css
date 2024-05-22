@@ -31,6 +31,10 @@ body {
 
 }
 
+.title{
+    background-image:linear-gradient(#171F3B);
+
+}
 .info-container{
     background-image:linear-gradient(#171F3B #2C5F88);
     display: flex;
@@ -49,3 +53,34 @@ body {
         width: 30%;
         
     }
+
+    .gallery-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height:300px;
+        width:100%;
+        padding:50px 50px !important;
+        margin:20px !important;
+        
+        
+        
+    }
+    
+    .gallery-card {
+        margin: 10px;
+    }
+    
+    .gallery-card img {
+        width: 300px;
+        height: 350px;
+        margin-bottom:20px;
+    
+    
+    }
+    
+    .gallery-card p {
+        margin-top: 10px;
+    }
+    
+   
