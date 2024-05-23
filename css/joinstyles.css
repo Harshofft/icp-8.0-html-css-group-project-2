@@ -36,7 +36,7 @@ main {
     padding: 20px;
     max-width: 900px;
     margin: 0 auto;
-    background: rgba(133, 184, 218, 0.8);
+    background: rgba(66, 119, 157, 0.8);
     border-radius: 10px;
     position: relative;
     z-index: 1;
@@ -110,7 +110,7 @@ main {
 
 .application .file-input-button {
     display: inline-block;
-    background-color: #003366;
+    background-color: #0aa1d3;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -120,7 +120,7 @@ main {
 }
 
 .application .file-input-button:hover {
-    background-color: #002244;
+    background-color: #0dc7d4;
 }
 
 .application .file-input-wrapper span {
@@ -129,7 +129,7 @@ main {
 }
 
 .application input[type="submit"] {
-    background-color: #003366;
+    background-color: #0a9ed4;
     color: #fff;
     border: none;
     padding: 15px 35px;
@@ -138,7 +138,7 @@ main {
 }
 
 .application input[type="submit"]:hover {
-    background-color: #002244;
+    background-color: #0d90d2;
 }
 
 @font-face {
