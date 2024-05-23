@@ -1,209 +1,330 @@
-body{
-    background: linear-gradient(to right, #303f72, black);
+
+@font-face {
+    font-family: gily-roy;
+    src: url(../font/Gilroy-Medium.ttf);
 }
 
-.pslv{
+*{
+    padding: 0;
+    margin: 0;
+    color: whitesmoke;
+  
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #303f72, black);
+    font-family: gily-roy;
+}
+
+#main{
     height: 100vh;
     width: 100%;
-    
-   
-   
-
-}
-.fist{
     display: flex;
-    flex-direction: row;
-    height: 90vh;
-    width: 100%;
-    
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
 }
-.img-card{
-    height: 70vh;
-    width: 70vh;
-    margin:10vh;
-    margin-right: 30vh;
-    margin-left: 15vh;
-    filter: drop-shadow(10px 10px 40px rgb(71, 71, 117));
-    
-  
-}
-.text{
-    height: 50vh;
-    width: 80vh;
-    margin:130px 80px ;
-   
-    
-}
-.h1{
-    color: white;
-    font-size: 50px;
-    font-weight: 600;
-}
-.p{
-    padding: 10px;
-    color: rgb(187, 187, 207);
-}
-.btn{
-    height: 8vh;
-    width: 26vh;
-    font-size: 20px;
-    font-weight: 500;
-    background-color:#45a2ef;
-    color: #d5dae7;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 120px;
-   
-}
-.card-back{
+#left{
+    height:100%;
+    width: 50%;
     display: flex;
     justify-content: center;
-}
-.card{
-    height: 25vh;
-    width: 50vh;
-    margin: 20px;
-    border-radius: 20px;
-    
-    overflow: hidden;
-}
-.card-img{
-    height: 100%;
-    width:100%;
-    object-fit: fill;
-   
-}
-@media screen and (max-width:480px) {
-body{
-    height: 100%;
-    width: 100%;
-   
-
-    background-repeat: no-repeat;
-    
-
-}
-.pslv{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
-    .fist{
-  height: 450px;
-    margin: 0px;
-    padding: 10px;
-    flex-direction: column;
-   
-}
-.text{
-    height: 20vh;
-    width: 30vh;
-    padding: 0%;
-    margin:0%;
-  
-   
-}
-.p{
-    padding: 0;
-    font-size: 10px;
-}
-.img-card{
-    margin: 0%;
-    padding: 0%;
-    
-    margin-left: 20px;
-    height: 20vh;
-    width: 30vh;
-}
-.btn{
-    margin: 0%;
-    margin-top: 8px;
-    padding: 8px;
-    font-size: 10px;
-    height: 30px;
-    width: 100px;
-}
-.card-back{
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(to right, #303f72, black);
+    
+   
+ 
     
 }
-.card{
-    overflow: hidden;
-    height: 25vh;
-    width: 40vh;
-    border-radius: 10px;
-}
+#left h1{
+    font-size: 7vw;
 
 }
-@media screen and (min-width:480px) and (max-width:991px)
-{
-    .pslv{
-        overflow: hidden;
-    }
-    .fist{
-        display: flex;
+#right{
+    height:100%;
+    width: 50%;
+    overflow: hidden;
+    
+
+}
+#right img{
+    height: 150%;
+    width: 100%;
+    object-fit: fill;
+    filter: drop-shadow(10px 10px 60px rgb(11, 91, 138));
+
+}
+#left p{
+   text-align: center;
+    padding:1vh 4vw;
+    font-size: 1.5vw;
+    color: gray;
+}
+#left button{
+    padding: 1vh 2vw;
+    background:linear-gradient(to right,#c832f5,#8cc7f7,rgb(40, 152, 139));
+box-shadow:  20px 20px 60px #32a39e,
+             -20px -20px 60px #c843d4;
+    text-transform: uppercase;
+    transition: all 1s linear;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.5vw; 
+    margin-top: 4vh;  
+}
+.table{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+.header{
+    height: 10vh;
+    width: 60vw;
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white ;
+   
+}
+.contant{
+    height: 10vh;
+    width: 60vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+.contant span{
+    height: 100%;
+    width: 22vw;
+    border: 1px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;  
+   
+}
+#features{
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  flex-direction: column;
+  margin-top: 2vh;
+
+}
+.card{
+    
+   display: flex;
+    height: 32vh;
+
+    width: 80vw; 
+    
+  margin-top: 2vh;
+     border:2px solid #171F3B;
+     transition: 1s ease-in-out; 
+    
+}
+.card:hover{
+    border: #2C5F88 solid 3px;
+}
+.img{
+    display: flex;
+    
+    
+    height: 30vh;
+    width: 50%;
+    background-color: red;
+    border-radius: 2vh;
+    object-fit:fill;
+   
+  
+}
+.img img{
+    
+    height: 100%;
+    width: 100%;
+    border-radius: 1vh;
+    background-color: red;
+   
+    
+
+}
+.info{
+    height:30vh ;
+    width:50%;
+   
+    text-align: center;
+    
+    margin:2vh 8vh;
+
+}
+.info h1{
+    display: flex;
+    justify-content: center;
+   
+} 
+
+@media screen and (max-width:480px){
+    #main{
+      height: 80vh;
         flex-direction: column;
     }
 
-.text{
-    height: 40vh;
-    width: 100%;
-    margin: 0;
-    padding: 10px;
-   
-   
-   
-  
-}
-body{
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
-.img-card{
-    height: 60vh;
-    width: 40vh;
-    margin: 0;
-    padding: 0;
-    margin: 20px;
-    margin-right: 20px;
+    #left{
+        height:50%;
+        width: 100%;
+       
+        
+     
+        
+    }
+    #left h1{
+        font-size: 9vw;
+        margin-top: 6vh;
+        letter-spacing: 1vw;
     
-}
-.btn{
-    height: 5vh;
-    width: 15vh;
-}
-
-
-}
-@media screen and (min-width:480px)and (max-width:660px){
-    body{
+    }
+    #right{
+        height:50%;
+        width: 100%;
+        overflow: hidden;
+       
+        
+    
+    }
+    #right img{
         height: 100%;
         width: 100%;
-        background-repeat: no-repeat;
+        object-fit: contain;
+        filter: drop-shadow(10px 10px 60px rgb(11, 91, 138));
+    
+    }
+    #left p{
+       
+        font-size: 3vw;
         
     }
-   
-    .img-card{
-        height: 40vh;
-        width: 30vh;
+    #left button{
+
+        padding: 1vh 4vw;
+       
+        font-size: 3vw; 
+        margin-top: 4vh;  
     }
-    .text{
+    .table{
+        height: 90%;
+        width: 100vw;
+       
+    }
+
+  
+
+    
+.header{
+    height: 10vh;
+    width: 90vw;
+    font-size: 4vw;
+  
+   
+   
+}
+.contant{
+    height: 10vh;
+    width: 90vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.contant span{
+    height: 100%;
+    width: 18vw;
+    border: 1px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vw;
+  
+    
+}
+
+.card{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     margin-top: 4vh;
+     
+ }
+
+.info p{
+    margin: 0;
+    padding: 0;
+    font-size: 2.5vw;
+
+
+}
+.info{
+    margin: 0 ;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+.img{
+    width: 40%;
+    margin: 0 2vw;
+}
+.info h1{
+    font-size: 7vw;
+}
+
+   
+}
+
+
+
+@media  screen and (min-width:481px) and (max-width:991px)
+{
+
+    #left p{
+   
+        font-size: 2vw;
+       
+        
+    }
+    #left button{
+
+        padding: 1vh 2.5vw;
+       
+        font-size: 2.5vw; 
+        margin-top: 4vh;  
+    }
+
+    .info p{
         margin: 0;
         padding: 0;
-        
-        height: 40vh;
-        width: 40vh;
+        font-size: 2.1vw;
+    
+    
     }
-    .btn{
-        height: 7vh;
-        width:30v;
-    }
+
+
 }
- 
+
+
 

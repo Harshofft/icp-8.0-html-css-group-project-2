@@ -64,6 +64,7 @@ body {
     background-position: center;
     padding: 10px 8%;
     position: relative;
+    background-attachment: fixed;
 }
 .logo{
     width: 100px;

@@ -52,15 +52,17 @@ main {
     padding: 50px 20px;
     background-image:linear-gradient(#171f3b,#2C5F88);
     top: 50px;
+    margin: 0;
 }
 
 .items {
     text-align: center;
-    width: 30%;
+    padding: 20px;
 }
 
 .items h3 {
 
+margin-top: 20px;
     margin-bottom: 10px;
 }
 
@@ -140,6 +142,8 @@ footer {
     .items {
         flex: 1 1 calc(50% - 40px); 
         max-width: calc(50% - 40px);
+        margin:0;
+        padding: 0;
     }
 
     .gallery {
