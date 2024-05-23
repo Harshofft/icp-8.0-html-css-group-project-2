@@ -201,7 +201,7 @@ box-shadow:  -20px -20px 60px #32a39e,
 
  #cover{
     background: linear-gradient(to left,#19213b,rgba(0, 0, 0, 0.71),transparent,rgba(0, 0, 0, 0.71),#19213b);
-    height: 100%;
+    height: 90%;
     width: 100%;
     position: absolute;
     top: 0;
