@@ -6,8 +6,37 @@
     <title>Join Us - ISRO</title>
     <link rel="stylesheet" href="./../css/joinstyles.css">
     <link rel="stylesheet" href="./../css/nav.css">
+    <link rel="stylesheet" href="./../css/footer.css">
+
 </head>
 <body>
+
+     <video id="bg-video" autoplay muted loop>
+        <source src="./../img/space.mp4"> 
+    </video>
+    <nav>
+        <div id="nav-right">IS<span>R</span>O</div>
+        <div id="nav-left">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#page2">missions</a></li>
+                <li><a href="./../pages/pslvloncher.html">our weapons</a></li>
+                <li><a href="./../pages/history.html">history</a></li>
+                <li><a href="./../pages/joinus.html">join us</a></li>
+            </ul>
+
+            <div id="open-page">
+
+                <div id="resp-nav">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#page2">missions</a></li>
+                        <li><a href="./pages/pslvloncher.html">our weapons</a></li>
+                        <li><a href="./pages/history.html">history</a></li>
+                        <li><a href="./pages/joinus.html">join us</a></li>
+                    </ul>
+                </div>
+=======
     <header>
         <nav>
             <div id="nav-right">IS<span>R</span>O</div>
@@ -19,18 +48,23 @@
                     <li><a href="#">history</a></li>
                     <li><a href="#">join us</a></li>
                 </ul>
+
             </div>
-            <div id="open-page"></div>
-        </nav>
+        </div>
+    </nav>
+
+    <header>
         <h1>ISRO Space </h1>
     </header>
     <main>
         <section class="intro">
             <h2>Join Us</h2><br>
-            <p>Be a part of an incredible journey to explore the final frontier. At ISRO, we are committed to pioneering space exploration and we are looking for passionate and talented individuals to join our team.</p>
+            <p>Be a part of an incredible journey to explore the final frontier. 
+                At ISRO, we are committed to pioneering space exploration and 
+                we are looking for passionate and talented individuals to join our team.</p>
         </section>
         <section class="positions">
-            <h2>Open Positions</h2>
+            <h2>Open Positions</h2><br>
             <ul>
                 <li>
                     <h3>Spacecraft Engineer</h3><br>
@@ -47,22 +81,22 @@
             </ul>
         </section>
         <section class="application">
-            <h3>Application Form</h3>
+            <h3>Application Form</h3><br>
             <form action="#" method="post">
-                <label for="name">Name:</label>
+               <h4> <label for="name">Name:</label></h4>
                 <input type="text" id="name" name="name" required>
                 
-                <label for="email">Email:</label>
+               <h4> <label for="email">Email:</label></h4>
                 <input type="email" id="email" name="email" required>
                 
-                <label for="position">Position:</label>
+                <h4><label for="position">Position:</label></h4>
                 <select id="position" name="position" required>
                     <option value="spacecraft_engineer">Spacecraft Engineer</option>
                     <option value="mission_control_specialist">Mission Control Specialist</option>
                     <option value="astrobiologist">Astrobiologist</option>
                 </select>
                 
-                <label for="resume">Resume:</label>
+               <h4> <label for="resume">Resume:</label></h4>
                 <div class="file-input-wrapper">
                     <input type="file" id="resume" name="resume" required>
                     <label for="resume" class="file-input-button">Choose File</label>
@@ -73,8 +107,27 @@
             </form>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 ISRO. All rights reserved.</p>
-    </footer>
+    <div id="footer">
+        <div id="footer-container">
+          <div id="footer-part1">
+              ISRO
+           </div>
+          <div id="footer-part2">
+              <span><a href="#">home | </a></span>
+              <span><a href="./../pages/MissionMars.html">  mission mangl | </a></span>
+              <span><a href="./../pages/chandrayaan.html"> chandrayaan |</a></span>
+              <span><a href="./../pages/#"> gaganyaan | </a></span>
+              <span><a href="./../pages/pslvloncher.html"> PSLV | </a></span>
+              <span><a href="./../pages/history.html"> history | </a></span>
+              <span><a href="./../pages/joinus.html"> join us</a></span>
+          </div>
+          <div id="footer-part3">
+            <span><img src="./../img/youtube.svg" alt=""></span>
+            <span><img src="./../img/facebook.svg" alt=""></span>
+            <span><img src="./../img/instagram.svg" alt=""></span>
+          </div>
+        </div>
+        <h3>Technology Created by ISRO | Supported by Chandrayaan Program</h3>
+  </div>
 </body>
 </html>
