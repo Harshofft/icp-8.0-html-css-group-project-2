@@ -72,7 +72,11 @@ box-shadow:  20px 20px 60px #32a39e,
     border-radius: 15px;
     border: none;
     font-size: 1.5vw; 
-    margin-top: 4vh;  
+    margin-top: 4vh; 
+    
+}
+#left a{
+    text-decoration: none;
 }
 #left button:hover{
     background:linear-gradient(to left,#85c3f3,#6c90f2,rgb(40, 152, 139));
@@ -280,6 +284,7 @@ box-shadow:  20px 20px 60px #32a39d8e,
     #left button{
 
         padding: 1vh 4vw;
+        
        
         font-size: 3vw; 
         margin-top: 4vh;  
@@ -328,7 +333,7 @@ box-shadow:  20px 20px 60px #32a39d8e,
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-     margin-top: 4vh;
+     margin-top: 3vh;
      
  }
 
