@@ -74,6 +74,11 @@ box-shadow:  20px 20px 60px #32a39e,
     font-size: 1.5vw; 
     margin-top: 4vh;  
 }
+#left button:hover{
+    background:linear-gradient(to left,#85c3f3,#6c90f2,rgb(40, 152, 139));
+box-shadow:  -20px -20px 60px #32a39e,
+             20px 20px 60px #8466f3;
+}
 .table{
     height: 30vh;
     width: 100vw;
@@ -116,7 +121,7 @@ box-shadow:  20px 20px 60px #32a39e,
    
 }
 #features{
-    height: 200vh;
+    height: 177vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -175,6 +180,62 @@ box-shadow:  20px 20px 60px #32a39e,
     justify-content: center;
    
 } 
+
+.page3{
+    height:100vh;
+    width: 100%;
+    font-family: gily-roy;
+    position: relative;
+    background: linear-gradient(to right, #303f72, black); 
+ }
+
+ .page3 video{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+ }
+
+ #cover{
+    background: linear-gradient(to left,#19213b,rgba(0, 0, 0, 0.71),transparent,rgba(0, 0, 0, 0.71),#19213b);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #cover h1{
+    font-size: 6vw;
+     display: flex;
+     align-items: center;
+     
+  }
+  #cover a{
+    padding: 0.2vh 2vw;
+    border: 1px solid whitesmoke;
+    border-radius: 19px;
+    font-size: 2vw;
+    text-decoration: none;
+    margin-top: 3vh;
+background:linear-gradient(to right,#dad0dd8c,#8cc7f781,rgba(40, 152, 139, 0.395));
+box-shadow:  20px 20px 60px #32a39d8e,
+             -20px -20px 60px #e7a2eda1;
+    text-transform: uppercase;
+    transition: all 1s linear;
+
+  }
+  #cover a:hover{
+    background-color: white;
+    color: black;
+  }
+  .tab{
+    display: inline-block;
+    margin:0 1.5vw;
+  }
 
 @media screen and (max-width:480px){
     #main{
