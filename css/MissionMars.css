@@ -10,6 +10,7 @@ body {
     color: white;
     background-color: #171F3B;
     overflow-x: hidden; 
+    
 }
 
 
@@ -19,7 +20,8 @@ main {
 
 .Mars {
     text-align: center;
-    background: url('./../img/Mars1.png') no-repeat center center/cover;
+    background: url('./../img/Mars1.png') no-repeat center center/cover ;
+    
     padding: 100px 20px;
     position:relative;
 
@@ -32,6 +34,7 @@ main {
 .Mars p {
     max-width: 800px;
     margin: 20px auto;
+    font-size: 25px;
 }
 .container {
     display: flex;
@@ -51,6 +54,10 @@ main {
     font-size: 2em;
     margin-bottom: 10px;
 }
+.items p {
+    font-size: 25px;
+    
+}
 
 .mission, .specialty, .gallery {
     padding: 50px 20px;
@@ -66,6 +73,9 @@ main {
 .mission h3, .specialty h3 {
     font-size: 2em;
     margin-bottom: 10px;
+}
+.mission p{
+    font-size: 25px;
 }
 
 .specialty {
