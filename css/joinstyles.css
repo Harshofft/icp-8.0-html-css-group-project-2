@@ -20,7 +20,7 @@ video#bg-video {
 }
 
 header {
-    background-color: rgba(3, 5, 11, 0.8);
+    background-color: rgba(9, 9, 9, 0.907);
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -36,10 +36,11 @@ main {
     padding: 20px;
     max-width: 900px;
     margin: 0 auto;
-    background: rgba(66, 119, 157, 0.8);
+    background: rgba(17, 23, 28, 0.847);
     border-radius: 10px;
     position: relative;
     z-index: 1;
+    color: #fff;
 }
 
 .intro {
@@ -54,14 +55,15 @@ main {
 .positions ul {
     list-style: none;
     padding: 0;
+    
 }
 
 .positions li {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #000;
+    background-color: rgba(40, 37, 37, 0.8);
+    color: #eee5e5;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #0a0a0a;
     border-radius: 5px;
 }
 
@@ -70,10 +72,10 @@ main {
 }
 
 .application form {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #000;
+    background-color: rgba(55, 53, 53, 0.8);
+    color: #ece6e6;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #030303;
     border-radius: 5px;
 }
 
@@ -94,6 +96,7 @@ main {
 
 .application .file-input-wrapper {
     position: relative;
+    
 }
 
 .application input[type="file"] {
@@ -110,7 +113,7 @@ main {
 
 .application .file-input-button {
     display: inline-block;
-    background-color: #0aa1d3;
+    background-color: #069fd1;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -129,7 +132,7 @@ main {
 }
 
 .application input[type="submit"] {
-    background-color: #0a9ed4;
+    background-color: #07b7f7;
     color: #fff;
     border: none;
     padding: 15px 35px;
@@ -138,7 +141,7 @@ main {
 }
 
 .application input[type="submit"]:hover {
-    background-color: #0d90d2;
+    background-color: #6bc2ee;
 }
 
 @font-face {
@@ -146,7 +149,7 @@ main {
     src: url(../font/DIMITRI_.TTF);
 }
 
-<<<<<<< HEAD
+
 @font-face {
     font-family: gily-roy;
     src: url(../font/Gilroy-Medium.ttf);
@@ -165,7 +168,7 @@ main {
 
 
 
-}
+
 body::-webkit-scrollbar {
     display: none;
 }
