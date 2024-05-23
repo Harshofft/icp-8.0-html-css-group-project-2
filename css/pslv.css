@@ -205,7 +205,7 @@ box-shadow:  -20px -20px 60px #32a39e,
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding-top: 10vh;
     flex-direction: column;
   }
   #cover h1{
@@ -215,7 +215,7 @@ box-shadow:  -20px -20px 60px #32a39e,
      
   }
   #cover a{
-    padding: 0.2vh 5vw;
+    padding: 0.2vh 2vw;
     border: 1px solid whitesmoke;
     border-radius: 19px;
     font-size: 2vw;
