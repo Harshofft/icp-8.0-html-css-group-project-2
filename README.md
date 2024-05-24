@@ -22,6 +22,15 @@ This project aimed to redesign the Indian Space Research Organisation's (ISRO) o
 * **Team Leader:** Harsh  
 * **Developers:** Akash, Sakshi, Vaishanavi D., Vaishanavi C ,Sarthak, Krushna.
 
+## Contributers
+1 `https://github.com/sarrthak008`
+2 `https://github.com/Harshofft`
+3 `https://github.com/KrushnaX0X0`
+4 `https://github.com/vaishnavichoudhari0418`
+5 `https://github.com/SakshiPawar19`
+6 `https://github.com/Akashchavan7`
+7 `https://github.com/vaishnavidumbare05`
+
 ## Technical Details
 
 * **Technologies Used:** HTML, CSS
@@ -34,4 +43,4 @@ This project aimed to redesign the Indian Space Research Organisation's (ISRO) o
 
 1. Clone this repository to your local machine.
 2. Open the `index.html` file in your web browser.
-
+3. `https://ind-isro.netlify.app`
