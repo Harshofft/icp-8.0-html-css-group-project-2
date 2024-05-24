@@ -14,15 +14,7 @@ body {
     background-color: #171F3B;
     overflow-x: hidden; 
 }
-#footer-part2 span a{
-    color:white;
-}
 
-#footer-part3 span img{
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
-}
 
 
 
@@ -130,12 +122,7 @@ margin-top: 20px;
 
 
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #171F3B;
-    font-size: 0.9em;
-}
+
 
 @media (max-width: 768px) {
 
