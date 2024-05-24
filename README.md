@@ -3,7 +3,7 @@ icp-8.0-html-css-group-project-2
 # ISRO Website Redesign Project
 
 This project aimed to redesign the Indian Space Research Organisation's (ISRO) official website to make it more user-friendly and accessible for the general public. The existing website was deemed to have an unfriendly interface compared to other space agencies like NASA.
-
+![isro](./img/readme%20img/Minimalist%20Neutral%20Multi%20Device%20Computer%20Mockup%20Website%20Launch%20Instagram%20Po_20240524_115729_0000.png)
 
 ## Project Goals
 
