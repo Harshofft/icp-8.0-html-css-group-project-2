@@ -1,11 +1,11 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-   
     background-size: cover;
     position: relative;
+    overflow-x: hidden; 
+    overflow-y: auto; 
 }
 
 video#bg-video {
@@ -20,11 +20,12 @@ video#bg-video {
 }
 
 header {
-    background-color: rgba(3, 5, 11, 0.8);
+    background-color: rgba(9, 9, 9, 0.907);
     color: #fff;
     padding: 10px 0;
     text-align: center;
     position: relative;
+    overflow: hidden; 
 }
 
 header h1 {
@@ -36,10 +37,12 @@ main {
     padding: 20px;
     max-width: 900px;
     margin: 0 auto;
-    background: rgba(133, 184, 218, 0.8);
+    background: rgba(17, 23, 28, 0.847);
     border-radius: 10px;
     position: relative;
     z-index: 1;
+    color: #fff;
+    overflow: hidden; 
 }
 
 .intro {
@@ -57,11 +60,11 @@ main {
 }
 
 .positions li {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #000;
+    background-color: rgba(40, 37, 37, 0.8);
+    color: #eee5e5;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #0a0a0a;
     border-radius: 5px;
 }
 
@@ -70,10 +73,10 @@ main {
 }
 
 .application form {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #000;
+    background-color: rgba(55, 53, 53, 0.8);
+    color: #ece6e6;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #030303;
     border-radius: 5px;
 }
 
@@ -110,7 +113,7 @@ main {
 
 .application .file-input-button {
     display: inline-block;
-    background-color: #003366;
+    background-color: #069fd1;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -120,7 +123,7 @@ main {
 }
 
 .application .file-input-button:hover {
-    background-color: #002244;
+    background-color: #0dc7d4;
 }
 
 .application .file-input-wrapper span {
@@ -129,7 +132,7 @@ main {
 }
 
 .application input[type="submit"] {
-    background-color: #003366;
+    background-color: #07b7f7;
     color: #fff;
     border: none;
     padding: 15px 35px;
@@ -138,22 +141,11 @@ main {
 }
 
 .application input[type="submit"]:hover {
-    background-color: #002244;
+    background-color: #6bc2ee;
 }
 
 @font-face {
-    font-family:logo;
-    src: url(../font/DIMITRI_.TTF);
-}
-
-<<<<<<< HEAD
-@font-face {
-    font-family: gily-roy;
-    src: url(../font/Gilroy-Medium.ttf);
-}
-
-@font-face {
-    font-family:logo;
+    font-family: logo;
     src: url(../font/DIMITRI_.TTF);
 }
 
@@ -162,10 +154,16 @@ main {
     src: url(../font/Gilroy-Medium.ttf);
 }
 
-
-
-
+@font-face {
+    font-family: logo;
+    src: url(../font/DIMITRI_.TTF);
 }
+
+@font-face {
+    font-family: gily-roy;
+    src: url(../font/Gilroy-Medium.ttf);
+}
+
 body::-webkit-scrollbar {
     display: none;
 }
