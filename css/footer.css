@@ -4,166 +4,128 @@
 }
 
 @font-face {
-    font-family: gily-roy;
+    font-family:gily-roy;
     src: url(../font/Gilroy-Medium.ttf);
 }
 
 
 #footer{
-    height: 20vh;
+    height: 40vh;
     width: 100%;
     background-color: black;
 }
 
-#footer #footer-container{
-
-    height: 70%;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-#footer-container #footer-part1{
-  font-size: 4vw;
-  font-family: logo;
-}
-
-#footer-part2{
-    font-size: 1.7vw;
-    display: flex;
-    gap: 1.2vw;
-}
-#footer-part2 span a{
-    text-decoration: none;
-    font-family: gily-roy;
-}
-
-#footer-part3 {
-}
-
-#footer-part3 span{
-  display: inline-block;
-   height: 20px;
-   width: 20px;
-   border-radius: 50%;
-   border: 1px solid white;
-   overflow: hidden;
-   padding: 1vh;
-   margin-left: 2vw;
-}
-
-#footer-part3 span img{
+#footer-container{
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
 }
 
-#footer-part3 span:hover{
-    background-color: whitesmoke;
-}
-
-#footer h3{
-    font-size: 1.1vw;
-    font-family: gily-roy;
-    display:block;
-    width: 100%;
-    text-align: center;
-    color: gray;
-}
-
-
-
-
-
-
-@media screen and (max-width:480px) {
-    #footer{
-        height: 30vh;
-        width: 100%;
-    }
-    
-    
-#footer #footer-container{
-    flex-direction: column;
-}
-
-#footer-container #footer-part1{
-  font-size: 6vw;
-  font-family: logo;
+#footer-part1{
+    font-size: 5vw;
+    font-family: logo;
 }
 
 #footer-part2{
-    font-size: 2.8vw;
     display: flex;
-    gap: 1.2vw;
-}
-#footer-part2 span a{
-    text-decoration: none;
+    flex-direction: column;
+    align-items: start;
     font-family: gily-roy;
 }
 
-#footer-part3 {
+#footer-part2 span{
+    margin-bottom: 1.4vh;
+    border-bottom: 1px solid whitesmoke;
 }
 
-#footer-part3 span{
-   height: 15px;
-   width: 15px;
-}
-
-
-#footer h3{
-    font-size: 2.2vw;
-}
-
+#footer-part2 span a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5vw;
 }
 
 
 
-@media screen and (min-width:480px) and (max-width:800px){
+
+@media screen and (max-width:500px) {
+ 
     #footer{
-        height: 30vh;
+        height: 80vh;
         width: 100%;
+        overflow: hidden;
+    }
+    
+    #footer-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    #footer-part1{
+        font-size: 10vw;
+        font-family: logo;
+    }
+
+    #footer-part2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: gily-roy;
     }
     
     
-#footer #footer-container{
-    height: 80%;
-    flex-direction: column;
-    gap:2vh;
-}
 
-#footer-container #footer-part1{
-  font-size: 5vw;
-  font-family: logo;
-}
+    
+    #footer-part2 span a{
+        color: whitesmoke;
+        text-decoration: none;
+        font-size:4vw;
+    }
 
-#footer-part2{
-    font-size: 2.1vw;
-    display: flex;
-    gap: 4vw;
-}
-#footer-part2 span a{
-    text-decoration: none;
-    font-family: gily-roy;
-}
+     
+  #footer-part3 iframe{
+    height: 150px;
+    width: 200px;
+  }
 
-#footer-part3 {
-}
-
-#footer-part3 span{
-   height: 15px;
-   width: 15px;
 }
 
 
-#footer h3{
-    font-size: 2vw;
-}
 
+@media screen and (min-width:500px) and (max-width:950px){
 
+    #footer-part1{
+        font-size: 5vw;
+        font-family: logo;
+    }
+    
+    #footer-part2{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        font-family: gily-roy;
+    }
+    
+    #footer-part2 span{
+        margin-bottom: 1.4vh;
+        border-bottom: 1px solid whitesmoke;
+    }
+    
+    #footer-part2 span a{
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 2.5vw;
+    }
+ 
+  #footer-part3 iframe{
+    height: 150px;
+    width: 250px;
+  }
 
 
 }
