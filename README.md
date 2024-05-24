@@ -23,13 +23,9 @@ This project aimed to redesign the Indian Space Research Organisation's (ISRO) o
 * **Developers:** Akash, Sakshi, Vaishanavi D., Vaishanavi C ,Sarthak, Krushna.
 
 ## Contributers
-1 `https://github.com/sarrthak008`
-2 `https://github.com/Harshofft`
-3 `https://github.com/KrushnaX0X0`
-4 `https://github.com/vaishnavichoudhari0418`
-5 `https://github.com/SakshiPawar19`
-6 `https://github.com/Akashchavan7`
-7 `https://github.com/vaishnavidumbare05`
+<a href="https://github.com/Harshofft/icp-8.0-html-css-group-project-2/graphs/contributors">
+  <img src="./img/readme img/Screenshot 2024-05-24 132817.png" />
+</a>
 
 ## Technical Details
 
