@@ -72,7 +72,16 @@ box-shadow:  20px 20px 60px #32a39e,
     border-radius: 15px;
     border: none;
     font-size: 1.5vw; 
-    margin-top: 4vh;  
+    margin-top: 4vh; 
+    
+}
+#left a{
+    text-decoration: none;
+}
+#left button:hover{
+    background:linear-gradient(to left,#85c3f3,#6c90f2,rgb(40, 152, 139));
+box-shadow:  -20px -20px 60px #32a39e,
+             20px 20px 60px #8466f3;
 }
 .table{
     height: 30vh;
@@ -116,7 +125,7 @@ box-shadow:  20px 20px 60px #32a39e,
    
 }
 #features{
-    height: 200vh;
+    height: 177vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -176,6 +185,62 @@ box-shadow:  20px 20px 60px #32a39e,
    
 } 
 
+.page3{
+    height:100vh;
+    width: 100%;
+    font-family: gily-roy;
+    position: relative;
+    background: linear-gradient(to right, #303f72, black); 
+ }
+
+ .page3 video{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+ }
+
+ #cover{
+    background: linear-gradient(to left,#19213b,rgba(0, 0, 0, 0.71),transparent,rgba(0, 0, 0, 0.71),#19213b);
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 10vh;
+    flex-direction: column;
+  }
+  #cover h1{
+    font-size: 6vw;
+     display: flex;
+     align-items: center;
+     
+  }
+  #cover a{
+    padding: 0.2vh 2vw;
+    border: 1px solid whitesmoke;
+    border-radius: 19px;
+    font-size: 2vw;
+    text-decoration: none;
+    margin-top: 3vh;
+background:linear-gradient(to right,#dad0dd8c,#8cc7f781,rgba(40, 152, 139, 0.395));
+box-shadow:  20px 20px 60px #32a39d8e,
+             -20px -20px 60px #e7a2eda1;
+    text-transform: uppercase;
+    transition: all 1s linear;
+
+  }
+  #cover a:hover{
+    background-color: white;
+    color: black;
+  }
+  .tab{
+    display: inline-block;
+    margin:0 1.5vw;
+  }
+
 @media screen and (max-width:480px){
     #main{
       height: 80vh;
@@ -219,6 +284,7 @@ box-shadow:  20px 20px 60px #32a39e,
     #left button{
 
         padding: 1vh 4vw;
+        
        
         font-size: 3vw; 
         margin-top: 4vh;  
@@ -267,7 +333,7 @@ box-shadow:  20px 20px 60px #32a39e,
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-     margin-top: 4vh;
+     margin-top: 2vh;
      
  }
 
@@ -291,6 +357,12 @@ box-shadow:  20px 20px 60px #32a39e,
 }
 .info h1{
     font-size: 7vw;
+}
+#cover h1{
+    font-size: 10vw;
+}
+#cover a{
+    font-size: 4vw;
 }
 
    
