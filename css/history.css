@@ -24,8 +24,8 @@ body {
     overflow-x: hidden;
 }
 .isro-sc{
-    text-align: center;
-    margin: 20px;
+    /* text-align: center;
+    margin: 20px; */
 }
 .container{
     display: flex;
