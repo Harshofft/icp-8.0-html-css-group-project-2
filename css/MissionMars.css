@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: Gilroy-Semi;
+    src: url(./../font/Gilroy-Medium.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -35,11 +38,12 @@ main {
     max-width: 800px;
     margin: 20px auto;
     font-size: 25px;
+    color: rgb(195, 192, 192);
 }
 .container {
     display: flex;
     justify-content: space-around;
-    padding: 50px 20px;
+    padding: 10px ;
     
     
     top: 50px;
@@ -47,7 +51,7 @@ main {
 
 .items {
     text-align: center;
-    width: 30%;
+    width: 100%;
 }
 
 .items h2 {
@@ -56,6 +60,7 @@ main {
 }
 .items p {
     font-size: 25px;
+    color: rgb(162, 156, 156);
     
 }
 
@@ -68,6 +73,17 @@ main {
 .mission h2, .specialty h2, .gallery h2{
     font-size: 2.5em;
     margin-bottom: 10px;
+    text-align: center;
+    
+    
+    
+}
+.gal{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .mission h3, .specialty h3 {
@@ -76,6 +92,7 @@ main {
 }
 .mission p{
     font-size: 25px;
+    color: rgb(162, 156, 156);
 }
 
 .specialty {
@@ -141,14 +158,14 @@ footer {
 
     .gallery {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items:center;
         justify-content: space-between;
-        
+        padding: 10px;
     }
 
     .gallery-item {
-        width: 20vh;
+        width: 90%;
     
         margin-bottom: 20px;
         
